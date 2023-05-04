@@ -1,0 +1,266 @@
+@media screen and (max-width:767px) {
+    .nav-cat {
+        display: none;
+    }
+
+    .sign-in {
+        padding: 8px 15px;
+    }
+
+    .sign-up {
+        padding: 8px 15px;
+    }
+
+    main {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 50px;
+    }
+
+    .main-left-part {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .main-left-part h2 {
+        color: white;
+        font-size: 7vmin;
+        font-weight: 500;
+    }
+
+    .main-left-part p {
+        color: white;
+        font-size: 3vmin;
+        max-width: 100%;
+    }
+
+    .main-btn {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .left-two-btn {
+        margin-left: 0px;
+    }
+
+    .main-right-part {
+        max-width: 100%;
+        gap: 25px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* second-second */
+    .second-second {
+        gap: 50px;
+    }
+
+    /* Soldier */
+    .soldier {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .soldierbase {
+        top: 230px;
+        padding: 0px 5px;
+    }
+
+    .soliderbtn button {
+        padding: 5px 6px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /* Wariors */
+    .wariors {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .wariorsbase {
+        top: 230px;
+        padding: 0px 5px;
+    }
+
+    .wariorsbtn button {
+        padding: 5px 6px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /* pubjiken */
+    .pubjiken {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .pubjikensbase {
+        top: 210px;
+        padding: 0px 5px;
+    }
+
+    .pubjikenbtn button {
+        padding: 5px 6px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    /* garela */
+    .garela {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .garelabase {
+        top: 230px;
+        padding: 0px 5px;
+    }
+
+    .garelabtn button {
+        padding: 5px 6px;
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    /* More Explore  */
+    .more-left img{
+        max-width: 100%;
+        max-height: 150%;
+    }
+    .more-right{
+        text-align: center;
+    }
+    .morebtn{
+        margin: 0px auto;
+        flex-direction: column;
+    }
+    .more-right p{
+        font-size: 2vmin;
+        max-width: 100%;
+    }
+
+    /* Game Recommand Section */
+
+    .recommend-top{
+        gap: 25px;
+        justify-content: space-between;
+    }
+    .recommend-left {
+        font-size: 4vmin;
+        line-break:unset;
+    }
+    .rec-left-arrow img:nth-child(1) {
+        width: 30px;
+        background-color: rgb(228, 193, 188);
+        padding: 18px 12px;
+    }
+    
+    .rec-left-arrow img:nth-child(2) {
+        width: 30px;
+        background-color: rgb(197, 49, 27);
+        padding: 20px 12px;
+    }
+    .one-recommend-below{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-top: 30px;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .two-recommend-below{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    .human-battle-info h3 {
+        font-size: 5vmin;
+        line-height: 25px;
+    }
+    
+    .human-battle-info h5 {
+        font-size: 3vmin;
+        /* font-weight: 500; */
+        color: tomato;
+        line-height: 35px;
+    }
+    
+    .human-battle-info p {
+        font-size: 2vmin;
+        /* font-weight: 300; */
+        /* line-height: 5px; */
+    }
+
+
+    .snake-info h3 {
+        font-size: 5vmin;
+        line-height: 25px;
+    }
+    
+    .snake-info h5 {
+        font-size: 3vmin;
+        /* font-weight: 500; */
+        color: tomato;
+        line-height: 35px;
+    }
+    
+    .snake-info p {
+        font-size: 2vmin;
+        /* font-weight: 300; */
+        /* line-height: px; */
+    }
+
+
+    .super-hero-info h3 {
+        font-size: 5vmin;
+        line-height: 25px;
+    }
+    
+    .super-hero-info h5 {
+        font-size: 3vmin;
+        /* font-weight: 500; */
+        color: tomato;
+        line-height: 35px;
+    }
+    
+    .super-hero-info p {
+        font-size: 2vmin;
+        /* font-weight: 300; */
+        /* line-height: 15px; */
+    }
+
+    .masked-hero-info h3 {
+        font-size: 5vmin;
+        line-height: 25px;
+    }
+    
+    .masked-hero-info h5 {
+        font-size: 3vmin;
+        /* font-weight: 500; */
+        color: tomato;
+        line-height: 35px;
+    }
+    
+    .masked-hero-info p {
+        font-size: 2vmin;
+        /* font-weight: 300; */
+        /* line-height: 15px; */
+    }
+    .orange-btn {
+        background-color: tomato;
+        border: 1px solid tomato;
+        color: white;
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+}
