@@ -8,7 +8,7 @@ body {}
 
 /* Nav Bar section */
 header {
-    background-image: url(./Assets/Photos/futuristic-bg.png);
+    background-image: url(futuristic-bg.png);
 }
 
 nav {
@@ -170,7 +170,7 @@ main {
     width: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./Assets/Photos/image\ 2.png);
+    background-image: url(2.png);
     background-size: 480px 300px;
 }
 
@@ -213,7 +213,7 @@ main {
     width: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./Assets/Photos/image\ 4.png);
+    background-image: url(4.png);
     background-size: 480px 300px;
 }
 
@@ -254,7 +254,7 @@ main {
     width: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./Assets/Photos/image\ 3.png);
+    background-image: url(3.png);
     background-size: 480px 300px;
 }
 
@@ -296,7 +296,7 @@ main {
     width: 300px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(./Assets/Photos/Rectangle\ 56.png);
+    background-image: url(56.png);
     background-size: 480px 300px;
 }
 
